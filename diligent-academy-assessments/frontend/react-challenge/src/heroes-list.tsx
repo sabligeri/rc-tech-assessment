@@ -21,7 +21,6 @@ function HeroesList() {
       <>
         <h2>Heroes</h2>
         <div className='loader'></div>
-        <p className='loading-text'>Loading...</p>
       </>
     );
   }

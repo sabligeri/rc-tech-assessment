@@ -16,7 +16,7 @@ const HeroListItem: React.FC<HeroListItemProps> = ({id, name, available, toggleA
         onClick={() => toggleAvailablity(id)}
         style={{color: available ? "green" : "red", cursor: "pointer"}}
         >
-           {id}. {name} {available && <span>"Availabel"</span>}
+           {id}. {name} {available && <span>"Available"</span>}
         </li>
     )
 

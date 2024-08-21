@@ -78,16 +78,16 @@
     list-style-type: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Három oszlopos elrendezés */
-    gap: 20px 104px; /* Függőleges és vízszintes térköz a hősök között */
-    justify-content: center; /* Középre igazítja a gridet */
-    max-width: 600px; /* Beállítjuk a max szélességet, hogy középen legyen */
-    margin: 0 auto; /* Középre helyezés */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px 104px; 
+    justify-content: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
     white-space: nowrap;
   }
   
   li {
-    margin: 10px 0; /* Függőleges térköz a listaelemek között */
+    margin: 10px 0; 
     width: 150px;
     text-align: left;
     font-size: 1.2em;
@@ -95,5 +95,6 @@
   }
 
   li span {
-  margin-left: 5px; /* Térköz a név és az "Available" felirat között */
+  margin-left: 5px; 
+  font-size: initial;
 }
