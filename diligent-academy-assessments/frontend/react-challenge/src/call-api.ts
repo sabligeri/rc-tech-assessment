@@ -2,6 +2,7 @@
  * Calls API with a specific route and a promise of the required resource.
  * @param route - eg. "heroes"
 */
+
 export const callApi = async <T>(route: string): Promise<T> => {
   switch (route) {
     case "heroes":
